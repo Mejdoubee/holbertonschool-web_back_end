@@ -6,7 +6,7 @@ export default class HolbertonCourse {
     this._students = students;
   }
 
-  _validateAttributes(name, length, students) {
+  this _validateAttributes(name, length, students) {
     if (typeof name !== 'string') throw new TypeError('Name must be a string');
     if (typeof length !== 'number') throw new TypeError('Length must be a number');
     if (!Array.isArray(students) || students.some(student => typeof student !== 'string')) {
@@ -37,7 +37,7 @@ export default class HolbertonCourse {
   }
 
   set students(newStudents) {
-    this._validateAttributes(this._name, this._length, newStudents)
+    this._validateAttributes(this._name, this._length, newStudents);
     this._students = newStudents;
   }
 }
