@@ -1,6 +1,7 @@
 # Holbertonschool Web_back_end
 
-## ES6_basic
+## ES6_Basic
+## ES6_Classes
 ## NoSQL
 ## pagination
 ## python_async_comprehension
